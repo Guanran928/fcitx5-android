@@ -30,37 +30,38 @@ class TextKeyboard(
 
         val Layout: List<List<KeyDef>> = listOf(
             listOf(
-                AlphabetKey("Q", "1"),
-                AlphabetKey("W", "2"),
-                AlphabetKey("E", "3"),
-                AlphabetKey("R", "4"),
-                AlphabetKey("T", "5"),
-                AlphabetKey("Y", "6"),
-                AlphabetKey("U", "7"),
-                AlphabetKey("I", "8"),
-                AlphabetKey("O", "9"),
-                AlphabetKey("P", "0")
+                AlphabetKey("/", "1"),
+                AlphabetKey(",", "2"),
+                AlphabetKey(".", "3"),
+                AlphabetKey("P", "4"),
+                AlphabetKey("Y", "5"),
+                AlphabetKey("F", "6"),
+                AlphabetKey("G", "7"),
+                AlphabetKey("C", "8"),
+                AlphabetKey("R", "9"),
+                AlphabetKey("L", "0")
             ),
             listOf(
                 AlphabetKey("A", "@"),
-                AlphabetKey("S", "*"),
-                AlphabetKey("D", "+"),
-                AlphabetKey("F", "-"),
-                AlphabetKey("G", "="),
-                AlphabetKey("H", "/"),
-                AlphabetKey("J", "#"),
-                AlphabetKey("K", "("),
-                AlphabetKey("L", ")")
+                AlphabetKey("O", "*"),
+                AlphabetKey("E", "+"),
+                AlphabetKey("U", "-"),
+                AlphabetKey("I", "="),
+                AlphabetKey("D", "/"),
+                AlphabetKey("H", "#"),
+                AlphabetKey("T", "("),
+                AlphabetKey("N", ")"),
+                AlphabetKey("S", "")
             ),
             listOf(
                 CapsKey(),
-                AlphabetKey("Z", "'"),
-                AlphabetKey("X", ":"),
-                AlphabetKey("C", "\""),
-                AlphabetKey("V", "?"),
-                AlphabetKey("B", "!"),
-                AlphabetKey("N", "~"),
-                AlphabetKey("M", "\\"),
+                AlphabetKey("J", "'"),
+                AlphabetKey("K", ":"),
+                AlphabetKey("X", "\""),
+                AlphabetKey("B", "?"),
+                AlphabetKey("M", "!"),
+                AlphabetKey("W", "~"),
+                AlphabetKey("V", "\\"),
                 BackspaceKey()
             ),
             listOf(
@@ -68,7 +69,7 @@ class TextKeyboard(
                 CommaKey(0.1f, KeyDef.Appearance.Variant.Alternative),
                 LanguageKey(),
                 SpaceKey(),
-                SymbolKey(".", 0.1f, KeyDef.Appearance.Variant.Alternative),
+                SymbolKey("z", 0.1f, KeyDef.Appearance.Variant.Alternative),
                 ReturnKey()
             )
         )
